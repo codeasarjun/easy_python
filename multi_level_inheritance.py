@@ -1,7 +1,7 @@
 # multilevel_inheritance
 
 class college:
-    name="amrita"
+    name="XYZ"
 class dep(college):
     dep_name="Computer Application"
 
