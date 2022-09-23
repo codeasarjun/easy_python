@@ -1,0 +1,3 @@
+Python list is kind of dynamic array getting used in Python. 
+
+list is a collection of things, enclosed in [ ] and separated by commas. 
