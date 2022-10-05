@@ -1,0 +1,28 @@
+''Given an odd length word your task is to complete the function printPattern that takes a string s as its argument and 
+prints it from the middle of the word such that it follows the following pattern.
+ 
+
+Input: PROGRAM 
+Output:
+G$ GR$ GRA$ GRAM$ 
+GRAMP$ GRAMPR$ GRAMPRO$'''
+
+
+
+
+
+def printPattern(str):
+    # Your code goes here
+    st=''
+    mid=len(str)//2
+    
+    reach=mid
+    a=str[mid:]
+    l=1
+    for i in range(mid,len(str)):
+        st+=str[mid:i+1]+"$"+" "
+        l+=1
+  
+    for j in range(0,mid):
+        st+=a+str[0:j+1]+"$"+" "
+    print(st)
