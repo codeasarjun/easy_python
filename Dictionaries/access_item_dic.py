@@ -23,3 +23,5 @@ print(d.items())  #print key value pairs in tuple
 
 for key,item in d.items(): # this will unpack the dic
     print(key,"----",item)
+
+    ''
