@@ -15,7 +15,7 @@ print(d.keys()) # print all the keys
 print(d.values()) # print values of the dict
 
 print(d.items())  #print key value pairs in tuple
-####################
+####################;;
 #####################&&
 #####################
 
