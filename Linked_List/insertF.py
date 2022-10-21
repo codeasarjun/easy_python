@@ -4,7 +4,7 @@ Created on Sun Jul 17 08:06:40 2022
 
 @author: arjun
 
-insert at the front 
+insert at the front  of the list 
 """
 class Node:
     def __init__(self,data):
