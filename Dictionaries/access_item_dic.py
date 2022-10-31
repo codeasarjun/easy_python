@@ -6,7 +6,7 @@ d={
     
 }
 
-print(d['name'])  # by using key 
+print(d['name'])  # by using key #
 
 print(d.get('name')) # using get function to call key value 
 
